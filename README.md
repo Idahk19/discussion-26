@@ -40,4 +40,19 @@ jua-kali-connect/
 ```
 **Bash**
 # Clone repository
-git clone [https://github.com/Idahk19/jua-kali-connect](https://github.com/Idahk19/jua-kali-connect)
+git clone [https://github.com/Idahk19/discussion-26](https://github.com/Idahk19/discussion-26)
+
+License
+
+This project is licensed under the MIT License.
+
+Author
+
+**Idah Karwitha**
+
+* GitHub: [https://github.com/Idahk19]()
+* Email: idahkarwitha9@gmail.com
+
+Vision
+
+To digitize and empower the Jua Kali sector by providing accessible, scalable, and efficient software solutions that enhance productivity and market reach.
