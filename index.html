@@ -1,12 +1,83 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My First Project</title>
+    <title>For My Love ❤️</title>
+
+    <style>
+        body {
+            background: linear-gradient(to right, #ffdde1, #ee9ca7);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        h1 {
+            color: white;
+            font-size: 40px;
+        }
+
+        button {
+            padding: 15px 30px;
+            margin: 10px;
+            font-size: 18px;
+            border: none;
+            border-radius: 12px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        #yesBtn {
+            background-color: #ff1493;
+            color: white;
+        }
+
+        #yesBtn:hover {
+            background-color: #ff69b4;
+            transform: scale(1.1);
+        }
+
+        #loveMessage {
+            margin-top: 20px;
+            font-size: 35px;
+            display: none;
+            animation: pop 1s ease;
+        }
+
+        @keyframes pop {
+            from {
+                transform: scale(0);
+                opacity: 0;
+            }
+
+            to {
+                transform: scale(1);
+                opacity: 1;
+            }
+        }
+    </style>
 </head>
+
 <body>
-    <p> Welcome to my home page</p>
-    <img src="assets/my image.avif" alt="not found" width="300px" height="500px">
+
+    <h1>Do You Love Me? ❤️</h1>
+
+    <button id="yesBtn" onclick="showLove()">
+        YES ❤️
+    </button>
+
+    <div id="loveMessage">
+        ❤️🥰💖😘💕😍💞 I LOVE YOUUUUU 💞😍💕😘💖🥰❤️
+    </div>
+
+    <script>
+        function showLove() {
+            document.getElementById("loveMessage").style.display = "block";
+        }
+    </script>
+
 </body>
 </html>
